@@ -524,6 +524,84 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Voucher prüfen",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "a8881502-a2d1-4154-a57c-38942d537174",
+            "source": {
+              "cell": "f6a94930-4e91-48b0-8985-46006f0385cd"
+            },
+            "target": {
+              "cell": "e7c4d902-f070-46f2-9b35-c23881e8b20b"
+            },
+            "labels": [
+              "Voucher prüfen"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Coupon Rabatte erstellen",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "b1661d18-e612-4c27-8ae8-29879132782c",
+            "source": {
+              "cell": "f6a94930-4e91-48b0-8985-46006f0385cd"
+            },
+            "target": {
+              "cell": "029a490d-aa7c-4d3f-ba17-9fb8454690bc"
+            },
+            "labels": [
+              "Coupon Rabatte erstellen"
+            ]
+          },
+          {
             "position": {
               "x": 897,
               "y": -400
@@ -533,6 +611,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Coupons erstellen"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -544,7 +625,7 @@
             "zIndex": 11,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Coupons erstellen",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
