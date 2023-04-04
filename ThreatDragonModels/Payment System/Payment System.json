@@ -26,6 +26,26 @@
         "cells": [
           {
             "position": {
+              "x": 531.9999999999982,
+              "y": -550.78125
+            },
+            "size": {
+              "width": 1070,
+              "height": 501.5625
+            },
+            "shape": "trust-boundary-box",
+            "id": "c0cf4847-e3dc-4213-8e85-0949056cfeee",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 210,
               "y": -400
             },
@@ -1025,46 +1045,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Überprüfung Saldo",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "61e3eb83-59a6-4395-a438-2d3598fc5330",
-            "labels": [
-              "Überprüfung Saldo"
-            ],
-            "source": {
-              "x": 1140,
-              "y": -110
-            },
-            "target": {
-              "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Rückgabe Betrag",
               "description": "",
               "outOfScope": false,
@@ -1199,15 +1179,15 @@
               "threats": []
             },
             "id": "54e48f60-8c4b-40a0-a15c-ec16dd240832",
+            "labels": [
+              "P2P Überweisung"
+            ],
             "source": {
               "cell": "0721a016-81f3-4c5a-bd6a-3e5ef0ee310a"
             },
             "target": {
               "cell": "4d2546b5-745b-4ed0-ba1d-138cc52c7adb"
-            },
-            "labels": [
-              "P2P Überweisung"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1238,15 +1218,15 @@
               "threats": []
             },
             "id": "9bdc5866-cf96-46dd-aa3d-9c68d3c2bed3",
+            "labels": [
+              "Login"
+            ],
             "source": {
               "cell": "ba64b268-7925-4fc6-b846-ad0e08265e0e"
             },
             "target": {
               "cell": "f3cb71f5-3798-4814-9201-bfe86918eb23"
-            },
-            "labels": [
-              "Login"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1277,15 +1257,15 @@
               "threats": []
             },
             "id": "53710483-ba7c-4d86-b226-64bf4c12c12a",
+            "labels": [
+              "Login"
+            ],
             "source": {
               "cell": "4d2546b5-745b-4ed0-ba1d-138cc52c7adb"
             },
             "target": {
               "cell": "f3cb71f5-3798-4814-9201-bfe86918eb23"
-            },
-            "labels": [
-              "Login"
-            ]
+            }
           },
           {
             "position": {
@@ -1395,7 +1375,7 @@
           {
             "position": {
               "x": 1400,
-              "y": -3
+              "y": -123
             },
             "size": {
               "width": 112.5,
@@ -1427,8 +1407,8 @@
           },
           {
             "position": {
-              "x": 1124.25,
-              "y": -3
+              "x": 1396.25,
+              "y": 37
             },
             "size": {
               "width": 120,
@@ -1499,8 +1479,8 @@
           },
           {
             "position": {
-              "x": 1143,
-              "y": -140
+              "x": 1242.5,
+              "y": -183
             },
             "size": {
               "width": 60,
@@ -1532,8 +1512,8 @@
           },
           {
             "position": {
-              "x": 1260,
-              "y": -250
+              "x": 1212.5,
+              "y": -13
             },
             "size": {
               "width": 120,
