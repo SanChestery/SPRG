@@ -307,6 +307,47 @@
             "labels": [
               "Angaben prüfen"
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verbindung prüfen",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "807d4bd5-f485-4156-9f79-85958622d84f",
+            "source": {
+              "x": 520,
+              "y": -290
+            },
+            "target": {
+              "cell": "e7c4d902-f070-46f2-9b35-c23881e8b20b"
+            },
+            "vertices": [],
+            "labels": [
+              "Verbindung prüfen"
+            ]
           }
         ]
       }
