@@ -26,24 +26,149 @@
         "cells": [
           {
             "position": {
-              "x": 531.9999999999982,
-              "y": -550.78125
+              "x": 428.66666666666515,
+              "y": -550.7812500000003
             },
             "size": {
-              "width": 1070,
-              "height": 501.5625
+              "width": 1173.333333333333,
+              "height": 550
             },
             "shape": "trust-boundary-box",
             "attrs": {
               "headerText": {
-                "text": "System Boundary"
+                "text": "Mobile Payment System Boundary"
               }
             },
+            "zIndex": -1,
             "id": "c0cf4847-e3dc-4213-8e85-0949056cfeee",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Mobile Payment System Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 707.9999999999998,
+              "y": 232
+            },
+            "size": {
+              "width": 405.33333333333326,
+              "height": 190
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "User"
+              }
+            },
+            "id": "4baa9659-02a8-489e-9f34-c49bdc82deaf",
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "System Boundary",
+              "name": "User",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1326.25,
+              "y": 436.0625
+            },
+            "size": {
+              "width": 260,
+              "height": 121.875
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "App Store"
+              }
+            },
+            "id": "411e0935-00aa-413a-ba30-70ab12163fc3",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "App Store",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1152.5,
+              "y": 113.75
+            },
+            "size": {
+              "width": 240,
+              "height": 112.5
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Online Store"
+              }
+            },
+            "id": "8519263a-2ae3-4c23-8fc1-3b8c5df43a47",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Online Store",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1142.5,
+              "y": -740
+            },
+            "size": {
+              "width": 250,
+              "height": 117.1875
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Merchant"
+              }
+            },
+            "id": "01f5e724-1a3f-428d-b041-dd5d2f3a5446",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Merchant",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 36.25,
+              "y": -142.5
+            },
+            "size": {
+              "width": 240,
+              "height": 112.5
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Bank "
+              }
+            },
+            "id": "98d9fc5b-336c-4363-b8b6-e16c8de6a1b7",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Bank ",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -52,32 +177,7 @@
           {
             "position": {
               "x": 100,
-              "y": -590
-            },
-            "size": {
-              "width": 1570,
-              "height": 735.9375
-            },
-            "shape": "trust-boundary-box",
-            "attrs": {
-              "headerText": {
-                "text": "Context Boundary"
-              }
-            },
-            "id": "7207e39a-ec40-492c-ad91-9c02c4326280",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Context Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 157.5,
-              "y": -430
+              "y": -540
             },
             "size": {
               "width": 112.5,
@@ -109,8 +209,8 @@
           },
           {
             "position": {
-              "x": 183.75,
-              "y": -150
+              "x": 480,
+              "y": -183
             },
             "size": {
               "width": 60,
@@ -142,8 +242,8 @@
           },
           {
             "position": {
-              "x": 420,
-              "y": -440
+              "x": 510,
+              "y": -430
             },
             "size": {
               "width": 60,
@@ -175,8 +275,8 @@
           },
           {
             "position": {
-              "x": 393.75,
-              "y": -309.96875
+              "x": 110,
+              "y": -100
             },
             "size": {
               "width": 112.5,
@@ -208,8 +308,8 @@
           },
           {
             "position": {
-              "x": 418,
-              "y": -183
+              "x": 480,
+              "y": -90
             },
             "size": {
               "width": 60,
@@ -396,8 +496,8 @@
             },
             "vertices": [
               {
-                "x": 560,
-                "y": -50
+                "x": 650,
+                "y": -150
               }
             ]
           },
@@ -441,7 +541,7 @@
             },
             "vertices": [
               {
-                "x": 610,
+                "x": 670,
                 "y": -110
               }
             ]
@@ -765,8 +865,8 @@
             },
             "vertices": [
               {
-                "x": 960,
-                "y": 77
+                "x": 940,
+                "y": 470
               }
             ]
           },
@@ -886,8 +986,8 @@
             },
             "vertices": [
               {
-                "x": 920,
-                "y": -10
+                "x": 930,
+                "y": 100
               }
             ]
           },
@@ -932,7 +1032,7 @@
             "vertices": [
               {
                 "x": 670,
-                "y": -10
+                "y": 110
               }
             ]
           },
@@ -1213,7 +1313,13 @@
             },
             "target": {
               "cell": "f3cb71f5-3798-4814-9201-bfe86918eb23"
-            }
+            },
+            "vertices": [
+              {
+                "x": 1850,
+                "y": 200
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1244,15 +1350,15 @@
               "threats": []
             },
             "id": "77203162-5187-4775-8eb0-4d536d0a6de2",
+            "labels": [
+              "Überprüfung Saldo"
+            ],
             "source": {
               "cell": "a9b856e0-a525-4e17-9118-5d528862765c"
             },
             "target": {
               "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
-            },
-            "labels": [
-              "Überprüfung Saldo"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1408,8 +1514,8 @@
           },
           {
             "position": {
-              "x": 1426.25,
-              "y": -526
+              "x": 1570,
+              "y": -520
             },
             "size": {
               "width": 60,
@@ -1474,8 +1580,8 @@
           },
           {
             "position": {
-              "x": 1396.25,
-              "y": 47
+              "x": 1392.5,
+              "y": 467
             },
             "size": {
               "width": 120,
@@ -1513,8 +1619,8 @@
           },
           {
             "position": {
-              "x": 743.75,
-              "y": 47
+              "x": 747.5,
+              "y": 297
             },
             "size": {
               "width": 112.5,
@@ -1580,7 +1686,7 @@
           {
             "position": {
               "x": 1212.5,
-              "y": -13
+              "y": 140
             },
             "size": {
               "width": 120,
@@ -1651,8 +1757,8 @@
           },
           {
             "position": {
-              "x": 1190,
-              "y": -430
+              "x": 1203,
+              "y": -700
             },
             "size": {
               "width": 112.5,
@@ -1684,8 +1790,8 @@
           },
           {
             "position": {
-              "x": 1203,
-              "y": -330
+              "x": 948,
+              "y": 297
             },
             "size": {
               "width": 112.5,
