@@ -641,6 +641,84 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2FA Challenge",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "041f9c13-4b46-4024-9d58-7c450158caf5",
+            "source": {
+              "cell": "f6a94930-4e91-48b0-8985-46006f0385cd"
+            },
+            "target": {
+              "cell": "f3cb71f5-3798-4814-9201-bfe86918eb23"
+            },
+            "labels": [
+              "2FA Challenge"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Credentials",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "450bf963-17e3-4aea-af1c-fefd9eed716f",
+            "source": {
+              "cell": "36f8042b-26fa-406b-8017-358dc0a4cd2c"
+            },
+            "target": {
+              "cell": "f3cb71f5-3798-4814-9201-bfe86918eb23"
+            },
+            "labels": [
+              "Credentials"
+            ]
+          },
+          {
             "position": {
               "x": 897,
               "y": -400
@@ -741,6 +819,39 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1149.75,
+              "y": -140
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Credentials"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "shape": "actor",
+            "id": "36f8042b-26fa-406b-8017-358dc0a4cd2c",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Credentials",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": []
             }
