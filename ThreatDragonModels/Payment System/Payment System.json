@@ -952,6 +952,9 @@
               "threats": []
             },
             "id": "b9d46836-14db-4506-9bc0-f61b28f7d1a8",
+            "labels": [
+              "Connect Bank Account"
+            ],
             "source": {
               "cell": "068eeebb-3a35-4692-abe5-1361f36e8d1b"
             },
@@ -963,9 +966,6 @@
                 "x": 670,
                 "y": -10
               }
-            ],
-            "labels": [
-              "Connect Bank Account"
             ]
           },
           {
@@ -997,15 +997,15 @@
               "threats": []
             },
             "id": "ba901a3a-a750-47f9-8124-4f31c6dc30f5",
+            "labels": [
+              "Eingabe QR Lesen NFC"
+            ],
             "source": {
               "cell": "068eeebb-3a35-4692-abe5-1361f36e8d1b"
             },
             "target": {
               "cell": "a9b856e0-a525-4e17-9118-5d528862765c"
-            },
-            "labels": [
-              "Eingabe QR Lesen NFC"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1036,16 +1036,16 @@
               "threats": []
             },
             "id": "61e3eb83-59a6-4395-a438-2d3598fc5330",
+            "labels": [
+              "Überprüfung Saldo"
+            ],
             "source": {
               "x": 1140,
               "y": -110
             },
             "target": {
               "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
-            },
-            "labels": [
-              "Überprüfung Saldo"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1076,15 +1076,15 @@
               "threats": []
             },
             "id": "75184c54-0960-432e-bbd0-1b0e2b4e6c04",
+            "labels": [
+              "Rückgabe Betrag"
+            ],
             "source": {
               "cell": "8f0bebac-6049-4f7b-9912-1004e425e6a9"
             },
             "target": {
               "cell": "a9b856e0-a525-4e17-9118-5d528862765c"
-            },
-            "labels": [
-              "Rückgabe Betrag"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1115,15 +1115,15 @@
               "threats": []
             },
             "id": "e00d5910-76b8-43da-83f9-ac408714a93f",
+            "labels": [
+              "Zahlung auslösen"
+            ],
             "source": {
               "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
             },
             "target": {
               "cell": "0721a016-81f3-4c5a-bd6a-3e5ef0ee310a"
-            },
-            "labels": [
-              "Zahlung auslösen"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1154,6 +1154,9 @@
               "threats": []
             },
             "id": "870e2224-538c-4651-be97-18edca9ac7c4",
+            "labels": [
+              "B2C Überweisung"
+            ],
             "source": {
               "cell": "0721a016-81f3-4c5a-bd6a-3e5ef0ee310a"
             },
@@ -1165,9 +1168,84 @@
                 "x": 1010,
                 "y": -360
               }
-            ],
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "P2P Überweisung",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "54e48f60-8c4b-40a0-a15c-ec16dd240832",
+            "source": {
+              "cell": "0721a016-81f3-4c5a-bd6a-3e5ef0ee310a"
+            },
+            "target": {
+              "cell": "4d2546b5-745b-4ed0-ba1d-138cc52c7adb"
+            },
             "labels": [
-              "B2C Überweisung"
+              "P2P Überweisung"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "9bdc5866-cf96-46dd-aa3d-9c68d3c2bed3",
+            "source": {
+              "cell": "ba64b268-7925-4fc6-b846-ad0e08265e0e"
+            },
+            "target": {
+              "cell": "f3cb71f5-3798-4814-9201-bfe86918eb23"
+            },
+            "labels": [
+              "Login"
             ]
           },
           {
@@ -1400,8 +1478,8 @@
               }
             },
             "shape": "process",
-            "id": "a9b856e0-a525-4e17-9118-5d528862765c",
             "zIndex": 17,
+            "id": "a9b856e0-a525-4e17-9118-5d528862765c",
             "data": {
               "type": "tm.Process",
               "name": "Zahlen",
@@ -1415,8 +1493,8 @@
           },
           {
             "position": {
-              "x": 1244.25,
-              "y": -300
+              "x": 1260,
+              "y": -250
             },
             "size": {
               "width": 120,
@@ -1472,8 +1550,8 @@
               }
             },
             "shape": "process",
-            "id": "0721a016-81f3-4c5a-bd6a-3e5ef0ee310a",
             "zIndex": 19,
+            "id": "0721a016-81f3-4c5a-bd6a-3e5ef0ee310a",
             "data": {
               "type": "tm.Process",
               "name": "Überweisung",
@@ -1487,8 +1565,8 @@
           },
           {
             "position": {
-              "x": 1090.5,
-              "y": -410
+              "x": 1190,
+              "y": -430
             },
             "size": {
               "width": 112.5,
@@ -1505,8 +1583,8 @@
               }
             },
             "shape": "actor",
-            "id": "ba64b268-7925-4fc6-b846-ad0e08265e0e",
             "zIndex": 20,
+            "id": "ba64b268-7925-4fc6-b846-ad0e08265e0e",
             "data": {
               "type": "tm.Actor",
               "name": "Merchant",
@@ -1520,8 +1598,8 @@
           },
           {
             "position": {
-              "x": 1090.5,
-              "y": -300
+              "x": 1203,
+              "y": -330
             },
             "size": {
               "width": 112.5,
@@ -1538,8 +1616,8 @@
               }
             },
             "shape": "actor",
-            "id": "4d2546b5-745b-4ed0-ba1d-138cc52c7adb",
             "zIndex": 21,
+            "id": "4d2546b5-745b-4ed0-ba1d-138cc52c7adb",
             "data": {
               "type": "tm.Actor",
               "name": "User",
