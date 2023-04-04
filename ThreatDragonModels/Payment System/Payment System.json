@@ -758,6 +758,45 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Download App",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "4857909d-d711-4a07-b62a-e14637c858fa",
+            "source": {
+              "cell": "068eeebb-3a35-4692-abe5-1361f36e8d1b"
+            },
+            "target": {
+              "cell": "ea95ae8d-502d-4047-9f90-a083e6d6dc2d"
+            },
+            "labels": [
+              "Download App"
+            ]
+          },
+          {
             "position": {
               "x": 897,
               "y": -400
@@ -865,7 +904,7 @@
           {
             "position": {
               "x": 1400,
-              "y": -190
+              "y": -3
             },
             "size": {
               "width": 112.5,
@@ -897,8 +936,8 @@
           },
           {
             "position": {
-              "x": 1134.25,
-              "y": -190
+              "x": 1124.25,
+              "y": -3
             },
             "size": {
               "width": 120,
@@ -930,6 +969,39 @@
               "storesCredentials": false,
               "isEncrypted": false,
               "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 744,
+              "y": -3
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Customer"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "shape": "actor",
+            "id": "068eeebb-3a35-4692-abe5-1361f36e8d1b",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Customer",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": []
             }
