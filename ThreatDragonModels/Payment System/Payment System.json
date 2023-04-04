@@ -59,8 +59,8 @@
           },
           {
             "position": {
-              "x": 236,
-              "y": -227
+              "x": 236.25,
+              "y": -140
             },
             "size": {
               "width": 60,
@@ -191,8 +191,8 @@
           },
           {
             "position": {
-              "x": 750,
-              "y": -310
+              "x": 740,
+              "y": -140
             },
             "size": {
               "width": 120,
@@ -386,6 +386,96 @@
             },
             "labels": [
               "Angaben prüfen"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Eingabe CC Daten",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "f4ac458c-55c0-4ad4-8ff0-aa3e0b68f313",
+            "source": {
+              "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
+            },
+            "target": {
+              "cell": "f32e1526-3294-4c8d-865b-c516fce335c6"
+            },
+            "vertices": [
+              {
+                "x": 560,
+                "y": -50
+              }
+            ],
+            "labels": [
+              "Eingabe CC Daten"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Eingabe Bankdaten",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "9bdddcd7-e496-4135-83b4-47603c5a3fcf",
+            "source": {
+              "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
+            },
+            "target": {
+              "cell": "d59f6a25-2858-47a0-b48a-28548f1f7df8"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": -110
+              }
+            ],
+            "labels": [
+              "Eingabe Bankdaten"
             ]
           }
         ]
