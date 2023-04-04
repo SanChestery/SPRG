@@ -1087,6 +1087,45 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Zahlung auslösen",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "e00d5910-76b8-43da-83f9-ac408714a93f",
+            "source": {
+              "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
+            },
+            "target": {
+              "cell": "0721a016-81f3-4c5a-bd6a-3e5ef0ee310a"
+            },
+            "labels": [
+              "Zahlung auslösen"
+            ]
+          },
+          {
             "position": {
               "x": 796.25,
               "y": -390
