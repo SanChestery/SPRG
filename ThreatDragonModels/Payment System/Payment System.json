@@ -1439,6 +1439,39 @@
               "hasOpenThreats": false,
               "threats": []
             }
+          },
+          {
+            "position": {
+              "x": 1060,
+              "y": -410
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Merchant"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "shape": "actor",
+            "id": "ba64b268-7925-4fc6-b846-ad0e08265e0e",
+            "zIndex": 20,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Merchant",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
           }
         ]
       }
