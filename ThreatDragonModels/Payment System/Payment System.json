@@ -1126,6 +1126,51 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "B2C Überweisung",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "870e2224-538c-4651-be97-18edca9ac7c4",
+            "source": {
+              "cell": "0721a016-81f3-4c5a-bd6a-3e5ef0ee310a"
+            },
+            "target": {
+              "cell": "ba64b268-7925-4fc6-b846-ad0e08265e0e"
+            },
+            "vertices": [
+              {
+                "x": 1010,
+                "y": -360
+              }
+            ],
+            "labels": [
+              "B2C Überweisung"
+            ]
+          },
+          {
             "position": {
               "x": 796.25,
               "y": -390
@@ -1442,7 +1487,7 @@
           },
           {
             "position": {
-              "x": 1060,
+              "x": 1090.5,
               "y": -410
             },
             "size": {
@@ -1465,6 +1510,39 @@
             "data": {
               "type": "tm.Actor",
               "name": "Merchant",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1090.5,
+              "y": -300
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "User"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "shape": "actor",
+            "id": "4d2546b5-745b-4ed0-ba1d-138cc52c7adb",
+            "zIndex": 21,
+            "data": {
+              "type": "tm.Actor",
+              "name": "User",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
