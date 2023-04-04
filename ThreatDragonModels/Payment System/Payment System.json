@@ -34,11 +34,16 @@
               "height": 501.5625
             },
             "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "System Boundary"
+              }
+            },
             "id": "c0cf4847-e3dc-4213-8e85-0949056cfeee",
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "System Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -1268,6 +1273,45 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Überprüfung Saldo",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "77203162-5187-4775-8eb0-4d536d0a6de2",
+            "source": {
+              "cell": "a9b856e0-a525-4e17-9118-5d528862765c"
+            },
+            "target": {
+              "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
+            },
+            "labels": [
+              "Überprüfung Saldo"
+            ]
+          },
+          {
             "position": {
               "x": 796.25,
               "y": -390
@@ -1480,7 +1524,7 @@
           {
             "position": {
               "x": 1242.5,
-              "y": -183
+              "y": -140
             },
             "size": {
               "width": 60,
