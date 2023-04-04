@@ -630,15 +630,15 @@
               "threats": []
             },
             "id": "755e18f8-f728-4598-b7bc-aa8a37f416b4",
+            "labels": [
+              "Coupons gutschreiben"
+            ],
             "source": {
               "cell": "029a490d-aa7c-4d3f-ba17-9fb8454690bc"
             },
             "target": {
               "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
-            },
-            "labels": [
-              "Coupons gutschreiben"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -669,15 +669,15 @@
               "threats": []
             },
             "id": "041f9c13-4b46-4024-9d58-7c450158caf5",
+            "labels": [
+              "2FA Challenge"
+            ],
             "source": {
               "cell": "f6a94930-4e91-48b0-8985-46006f0385cd"
             },
             "target": {
               "cell": "f3cb71f5-3798-4814-9201-bfe86918eb23"
-            },
-            "labels": [
-              "2FA Challenge"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -708,15 +708,15 @@
               "threats": []
             },
             "id": "450bf963-17e3-4aea-af1c-fefd9eed716f",
+            "labels": [
+              "Credentials"
+            ],
             "source": {
               "cell": "36f8042b-26fa-406b-8017-358dc0a4cd2c"
             },
             "target": {
               "cell": "f3cb71f5-3798-4814-9201-bfe86918eb23"
-            },
-            "labels": [
-              "Credentials"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -747,15 +747,15 @@
               "threats": []
             },
             "id": "338f4b2d-9ddb-4719-9a01-fce0ae2a2dee",
+            "labels": [
+              "Publish App"
+            ],
             "source": {
               "cell": "36f8042b-26fa-406b-8017-358dc0a4cd2c"
             },
             "target": {
               "cell": "ea95ae8d-502d-4047-9f90-a083e6d6dc2d"
-            },
-            "labels": [
-              "Publish App"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -786,15 +786,15 @@
               "threats": []
             },
             "id": "4857909d-d711-4a07-b62a-e14637c858fa",
+            "labels": [
+              "Download App"
+            ],
             "source": {
               "cell": "068eeebb-3a35-4692-abe5-1361f36e8d1b"
             },
             "target": {
               "cell": "ea95ae8d-502d-4047-9f90-a083e6d6dc2d"
             },
-            "labels": [
-              "Download App"
-            ],
             "vertices": [
               {
                 "x": 960,
@@ -831,15 +831,15 @@
               "threats": []
             },
             "id": "32ad9f42-d61a-4684-b917-ff7dc5937b62",
+            "labels": [
+              "Register CC"
+            ],
             "source": {
               "cell": "068eeebb-3a35-4692-abe5-1361f36e8d1b"
             },
             "target": {
               "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
-            },
-            "labels": [
-              "Register CC"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -907,6 +907,9 @@
               "threats": []
             },
             "id": "0a83f2a6-70db-4f48-b4ca-fd47195ccb19",
+            "labels": [
+              "Register Voucher"
+            ],
             "source": {
               "cell": "068eeebb-3a35-4692-abe5-1361f36e8d1b"
             },
@@ -915,12 +918,54 @@
             },
             "vertices": [
               {
-                "x": 880,
+                "x": 920,
+                "y": -10
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Connect Bank Account",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "b9d46836-14db-4506-9bc0-f61b28f7d1a8",
+            "source": {
+              "cell": "068eeebb-3a35-4692-abe5-1361f36e8d1b"
+            },
+            "target": {
+              "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
+            },
+            "vertices": [
+              {
+                "x": 670,
                 "y": -10
               }
             ],
             "labels": [
-              "Register Voucher"
+              "Connect Bank Account"
             ]
           },
           {
@@ -1015,8 +1060,8 @@
               }
             },
             "shape": "process",
-            "id": "f3cb71f5-3798-4814-9201-bfe86918eb23",
             "zIndex": 13,
+            "id": "f3cb71f5-3798-4814-9201-bfe86918eb23",
             "data": {
               "type": "tm.Process",
               "name": "Login",
@@ -1048,8 +1093,8 @@
               }
             },
             "shape": "actor",
-            "id": "36f8042b-26fa-406b-8017-358dc0a4cd2c",
             "zIndex": 14,
+            "id": "36f8042b-26fa-406b-8017-358dc0a4cd2c",
             "data": {
               "type": "tm.Actor",
               "name": "Credentials",
@@ -1120,8 +1165,8 @@
               }
             },
             "shape": "actor",
-            "id": "068eeebb-3a35-4692-abe5-1361f36e8d1b",
             "zIndex": 16,
+            "id": "068eeebb-3a35-4692-abe5-1361f36e8d1b",
             "data": {
               "type": "tm.Actor",
               "name": "Customer",
