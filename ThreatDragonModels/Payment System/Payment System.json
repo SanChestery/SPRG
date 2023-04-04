@@ -564,7 +564,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Management Plattform"
+                "text": "Management Platform"
               },
               "topLine": {
                 "strokeWidth": 1,
@@ -580,7 +580,7 @@
             "zIndex": 12,
             "data": {
               "type": "tm.Store",
-              "name": "Management Plattform",
+              "name": "Management Platform",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
