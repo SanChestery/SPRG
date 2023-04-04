@@ -64,8 +64,8 @@
                 "text": "User"
               }
             },
-            "id": "4baa9659-02a8-489e-9f34-c49bdc82deaf",
             "zIndex": -1,
+            "id": "4baa9659-02a8-489e-9f34-c49bdc82deaf",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "User",
@@ -76,8 +76,8 @@
           },
           {
             "position": {
-              "x": 1326.25,
-              "y": 436.0625
+              "x": 1912.5,
+              "y": -147.1875
             },
             "size": {
               "width": 260,
@@ -89,14 +89,21 @@
                 "text": "App Store"
               }
             },
-            "id": "411e0935-00aa-413a-ba30-70ab12163fc3",
             "zIndex": -1,
+            "id": "411e0935-00aa-413a-ba30-70ab12163fc3",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "App Store",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -114,8 +121,8 @@
                 "text": "Online Store"
               }
             },
-            "id": "8519263a-2ae3-4c23-8fc1-3b8c5df43a47",
             "zIndex": -1,
+            "id": "8519263a-2ae3-4c23-8fc1-3b8c5df43a47",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Online Store",
@@ -139,8 +146,8 @@
                 "text": "Merchant"
               }
             },
-            "id": "01f5e724-1a3f-428d-b041-dd5d2f3a5446",
             "zIndex": -1,
+            "id": "01f5e724-1a3f-428d-b041-dd5d2f3a5446",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Merchant",
@@ -164,11 +171,61 @@
                 "text": "Bank "
               }
             },
-            "id": "98d9fc5b-336c-4363-b8b6-e16c8de6a1b7",
             "zIndex": -1,
+            "id": "98d9fc5b-336c-4363-b8b6-e16c8de6a1b7",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Bank ",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -290,
+              "y": -828
+            },
+            "size": {
+              "width": 2880,
+              "height": 1350
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Context Boundary"
+              }
+            },
+            "zIndex": -1,
+            "id": "3fd526d2-9fc3-4441-aea2-02835cec256e",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Context Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 26.25,
+              "y": -566.25
+            },
+            "size": {
+              "width": 230,
+              "height": 107.8125
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "CC Anbieter"
+              }
+            },
+            "id": "e5a344f5-74cc-473a-8652-293e812c9bd8",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "CC Anbieter",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -865,8 +922,8 @@
             },
             "vertices": [
               {
-                "x": 940,
-                "y": 470
+                "x": 1160,
+                "y": 420
               }
             ]
           },
@@ -1294,51 +1351,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Login",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "53710483-ba7c-4d86-b226-64bf4c12c12a",
-            "labels": [
-              "Login"
-            ],
-            "source": {
-              "cell": "4d2546b5-745b-4ed0-ba1d-138cc52c7adb"
-            },
-            "target": {
-              "cell": "f3cb71f5-3798-4814-9201-bfe86918eb23"
-            },
-            "vertices": [
-              {
-                "x": 1850,
-                "y": 200
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Überprüfung Saldo",
               "description": "",
               "outOfScope": false,
@@ -1439,6 +1451,59 @@
               "cell": "e7c4d902-f070-46f2-9b35-c23881e8b20b"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "53710483-ba7c-4d86-b226-64bf4c12c12a",
+            "labels": [
+              "Login"
+            ],
+            "source": {
+              "cell": "4d2546b5-745b-4ed0-ba1d-138cc52c7adb"
+            },
+            "target": {
+              "cell": "f3cb71f5-3798-4814-9201-bfe86918eb23"
+            },
+            "vertices": [
+              {
+                "x": 1410,
+                "y": 250
+              },
+              {
+                "x": 1640,
+                "y": 90
+              },
+              {
+                "x": 1670,
+                "y": -220
+              }
+            ]
           },
           {
             "position": {
@@ -1580,8 +1645,8 @@
           },
           {
             "position": {
-              "x": 1392.5,
-              "y": 467
+              "x": 1982.5,
+              "y": -116.25
             },
             "size": {
               "width": 120,
