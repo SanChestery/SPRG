@@ -969,6 +969,85 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Eingabe QR Lesen NFC",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "ba901a3a-a750-47f9-8124-4f31c6dc30f5",
+            "source": {
+              "cell": "068eeebb-3a35-4692-abe5-1361f36e8d1b"
+            },
+            "target": {
+              "cell": "a9b856e0-a525-4e17-9118-5d528862765c"
+            },
+            "labels": [
+              "Eingabe QR Lesen NFC"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Überprüfung Saldo",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "61e3eb83-59a6-4395-a438-2d3598fc5330",
+            "source": {
+              "x": 1140,
+              "y": -110
+            },
+            "target": {
+              "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
+            },
+            "labels": [
+              "Überprüfung Saldo"
+            ]
+          },
+          {
             "position": {
               "x": 897,
               "y": -400
@@ -1180,8 +1259,8 @@
           },
           {
             "position": {
-              "x": 1173,
-              "y": -107
+              "x": 1143,
+              "y": -140
             },
             "size": {
               "width": 60,
