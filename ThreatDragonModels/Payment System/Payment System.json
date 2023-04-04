@@ -298,15 +298,15 @@
               "threats": []
             },
             "id": "a6357a66-d4a9-4ff1-bbf2-3bfb83ea82b2",
+            "labels": [
+              "Angaben prüfen"
+            ],
             "source": {
               "cell": "ffc180ee-d4ab-41e2-9c97-f70ea72a6b60"
             },
             "target": {
               "cell": "f32e1526-3294-4c8d-865b-c516fce335c6"
-            },
-            "labels": [
-              "Angaben prüfen"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -337,6 +337,9 @@
               "threats": []
             },
             "id": "807d4bd5-f485-4156-9f79-85958622d84f",
+            "labels": [
+              "Verbindung prüfen"
+            ],
             "source": {
               "x": 520,
               "y": -290
@@ -344,10 +347,7 @@
             "target": {
               "cell": "e7c4d902-f070-46f2-9b35-c23881e8b20b"
             },
-            "vertices": [],
-            "labels": [
-              "Verbindung prüfen"
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -378,15 +378,15 @@
               "threats": []
             },
             "id": "c871f470-4e45-4299-8169-0c108d41324b",
+            "labels": [
+              "Angaben prüfen"
+            ],
             "source": {
               "cell": "4b0ce428-dd15-4d70-96f2-8eddaf044fb4"
             },
             "target": {
               "cell": "d59f6a25-2858-47a0-b48a-28548f1f7df8"
-            },
-            "labels": [
-              "Angaben prüfen"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -417,6 +417,9 @@
               "threats": []
             },
             "id": "f4ac458c-55c0-4ad4-8ff0-aa3e0b68f313",
+            "labels": [
+              "Eingabe CC Daten"
+            ],
             "source": {
               "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
             },
@@ -428,9 +431,6 @@
                 "x": 560,
                 "y": -50
               }
-            ],
-            "labels": [
-              "Eingabe CC Daten"
             ]
           },
           {
@@ -462,6 +462,9 @@
               "threats": []
             },
             "id": "9bdddcd7-e496-4135-83b4-47603c5a3fcf",
+            "labels": [
+              "Eingabe Bankdaten"
+            ],
             "source": {
               "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
             },
@@ -473,9 +476,6 @@
                 "x": 610,
                 "y": -110
               }
-            ],
-            "labels": [
-              "Eingabe Bankdaten"
             ]
           },
           {
@@ -507,6 +507,9 @@
               "threats": []
             },
             "id": "8d1f5e32-a327-401c-8546-2f9ab841af8e",
+            "labels": [
+              "Betrag gutschreiben"
+            ],
             "source": {
               "cell": "e7c4d902-f070-46f2-9b35-c23881e8b20b"
             },
@@ -518,9 +521,6 @@
                 "x": 710,
                 "y": -300
               }
-            ],
-            "labels": [
-              "Betrag gutschreiben"
             ]
           },
           {
@@ -552,15 +552,15 @@
               "threats": []
             },
             "id": "a8881502-a2d1-4154-a57c-38942d537174",
+            "labels": [
+              "Voucher prüfen"
+            ],
             "source": {
               "cell": "f6a94930-4e91-48b0-8985-46006f0385cd"
             },
             "target": {
               "cell": "e7c4d902-f070-46f2-9b35-c23881e8b20b"
-            },
-            "labels": [
-              "Voucher prüfen"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -591,14 +591,53 @@
               "threats": []
             },
             "id": "b1661d18-e612-4c27-8ae8-29879132782c",
+            "labels": [
+              "Coupon Rabatte erstellen"
+            ],
             "source": {
               "cell": "f6a94930-4e91-48b0-8985-46006f0385cd"
             },
             "target": {
               "cell": "029a490d-aa7c-4d3f-ba17-9fb8454690bc"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Coupons gutschreiben",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "755e18f8-f728-4598-b7bc-aa8a37f416b4",
+            "source": {
+              "cell": "029a490d-aa7c-4d3f-ba17-9fb8454690bc"
+            },
+            "target": {
+              "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
             },
             "labels": [
-              "Coupon Rabatte erstellen"
+              "Coupons gutschreiben"
             ]
           },
           {
@@ -621,8 +660,8 @@
               }
             },
             "shape": "process",
-            "id": "029a490d-aa7c-4d3f-ba17-9fb8454690bc",
             "zIndex": 11,
+            "id": "029a490d-aa7c-4d3f-ba17-9fb8454690bc",
             "data": {
               "type": "tm.Process",
               "name": "Coupons erstellen",
