@@ -51,8 +51,33 @@
           },
           {
             "position": {
-              "x": 210,
-              "y": -400
+              "x": 100,
+              "y": -590
+            },
+            "size": {
+              "width": 1570,
+              "height": 735.9375
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": "Context Boundary"
+              }
+            },
+            "id": "7207e39a-ec40-492c-ad91-9c02c4326280",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Context Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 157.5,
+              "y": -430
             },
             "size": {
               "width": 112.5,
@@ -84,8 +109,8 @@
           },
           {
             "position": {
-              "x": 236.25,
-              "y": -140
+              "x": 183.75,
+              "y": -150
             },
             "size": {
               "width": 60,
@@ -117,8 +142,8 @@
           },
           {
             "position": {
-              "x": 488,
-              "y": -400
+              "x": 420,
+              "y": -440
             },
             "size": {
               "width": 60,
@@ -150,8 +175,8 @@
           },
           {
             "position": {
-              "x": 462,
-              "y": -287
+              "x": 393.75,
+              "y": -309.96875
             },
             "size": {
               "width": 112.5,
@@ -183,8 +208,8 @@
           },
           {
             "position": {
-              "x": 488,
-              "y": -167
+              "x": 418,
+              "y": -183
             },
             "size": {
               "width": 60,
@@ -271,47 +296,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Zahlung validieren",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "8105ad7f-88f7-46df-8163-d8bd93658d80",
-            "labels": [
-              "Zahlung validieren"
-            ],
-            "source": {
-              "cell": "ffc180ee-d4ab-41e2-9c97-f70ea72a6b60"
-            },
-            "target": {
-              "x": 480,
-              "y": -370
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Angaben prüfen",
               "description": "",
               "outOfScope": false,
@@ -332,47 +316,6 @@
             "target": {
               "cell": "f32e1526-3294-4c8d-865b-c516fce335c6"
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Verbindung prüfen",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "807d4bd5-f485-4156-9f79-85958622d84f",
-            "labels": [
-              "Verbindung prüfen"
-            ],
-            "source": {
-              "x": 520,
-              "y": -290
-            },
-            "target": {
-              "cell": "e7c4d902-f070-46f2-9b35-c23881e8b20b"
-            },
-            "vertices": []
           },
           {
             "shape": "flow",
@@ -543,8 +486,8 @@
             },
             "vertices": [
               {
-                "x": 710,
-                "y": -300
+                "x": 600,
+                "y": -330
               }
             ]
           },
@@ -1312,6 +1255,86 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verbindung prüfen",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "807d4bd5-f485-4156-9f79-85958622d84f",
+            "labels": [
+              "Verbindung prüfen"
+            ],
+            "source": {
+              "cell": "4b0ce428-dd15-4d70-96f2-8eddaf044fb4"
+            },
+            "target": {
+              "cell": "e7c4d902-f070-46f2-9b35-c23881e8b20b"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Zahlung validieren",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "8105ad7f-88f7-46df-8163-d8bd93658d80",
+            "labels": [
+              "Zahlung validieren"
+            ],
+            "source": {
+              "cell": "ffc180ee-d4ab-41e2-9c97-f70ea72a6b60"
+            },
+            "target": {
+              "cell": "e7c4d902-f070-46f2-9b35-c23881e8b20b"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 796.25,
               "y": -390
@@ -1452,7 +1475,7 @@
           {
             "position": {
               "x": 1396.25,
-              "y": 37
+              "y": 47
             },
             "size": {
               "width": 120,
