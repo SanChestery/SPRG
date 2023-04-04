@@ -477,6 +477,51 @@
             "labels": [
               "Eingabe Bankdaten"
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Betrag gutschreiben",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "8d1f5e32-a327-401c-8546-2f9ab841af8e",
+            "source": {
+              "cell": "e7c4d902-f070-46f2-9b35-c23881e8b20b"
+            },
+            "target": {
+              "cell": "e03918ab-92ce-41d1-8e84-bdbfc83413fc"
+            },
+            "vertices": [
+              {
+                "x": 710,
+                "y": -300
+              }
+            ],
+            "labels": [
+              "Betrag gutschreiben"
+            ]
           }
         ]
       }
